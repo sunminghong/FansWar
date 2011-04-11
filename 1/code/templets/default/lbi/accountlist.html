@@ -1,0 +1,10 @@
+<!--帐列表区开始-->
+<div id="a_list">
+	<ul>
+    <{foreach item=api from=$users key=keyid}>
+        <li><label><input name="kuid" type="checkbox" checked value="<{$keyid}>"/><a href="?c=<{$ctl}>&a=<{$act}>&kuid=<{$keyid}>" target="_blank"><{$api.name}></a>【<{$api.lfromname}>】</label></li>
+    <{/foreach}>
+<li><a href="?c=account&a=tologin&lfrom=tsina">新浪登录</a></li>
+    </ul>
+</div>
+<!--帐列表区结束-->

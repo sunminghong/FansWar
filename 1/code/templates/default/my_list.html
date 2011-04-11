@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style>
+body{font:12px;}
+#a_list{}
+ul{margin:0px;padding:0px;  }
+li{list-style-type:none; margin:2px;}
+#a_list ul li{font-size:14px;height:20px;line-height:20px;width:14em;float:left;overflow:hidden;}
+
+.cl{clear:both;height:5px;line-height:5px;font-size:3px;}
+
+.d_write {width:600px;text-align:left;background:#eee;}
+.d_write .d_wordNumBg{margin:5px 5px 5px 400px;font-size:12px;}
+.d_write .d_wordNumBg span{font:18px/20px Georgia, "Times New Roman", Times, serif;font-weight:bold;}
+.d_write .d_inputmsg {width:100%;text-align:center; }
+.d_write textarea {width:500px;height:100px;}
+
+.d_write .d_toolers {float:left;}
+.d_write .d_toolers span {padding-left:20px;}
+.d_write .d_btn {float:right;}
+
+.d_tab {width:600px;}
+.d_tab ul{height:20px;background:#ccc;}
+.d_tab li{float:left; color:#333;}
+.d_tab li.sel{color:#00F;background:#fff;}
+
+#main {width:600px;}
+.d_message {clear:both;width:95%; padding:10px 0px; border-bottom: dashed 1px #ccc;}
+.d_message .content{text-align:left;padding:5px;}
+.d_message .d_comments{margin:5px 5px 5px 30px; border:1px solid #eee; background:#eee;padding:5px;}
+.d_message .comm_content{border-bottom:1px solid #ddd;padding:5px 0px;}
+
+.d_message .d_retime{float:left;}
+.d_message .d_btn{float:right;}
+</style>
+</head>
+
+<body id="d_body">
+<a name="d_top"></a>
+<!--帐列表区开始-->
+<div id="a_list">
+	<ul>
+        <li><input type="checkbox" checked value="2"/>一挥一挥一挥【新浪微博】</li>
+        <li><input type="checkbox" checked value="2"/>一挥【新浪微博】</li>
+        <li><input type="checkbox" checked value="2"/>一挥【新浪微博】</li>
+        <li><input type="checkbox" checked value="2"/>一挥【新浪微博】</li>
+        <li><input type="checkbox" checked value="2"/>一挥【新浪微博】</li>
+        <li><input type="checkbox" checked value="2"/>一挥【新浪微博】</li>
+        <li><a href="#">一挥【新浪微博】</a></li>
+        <li><a href="#">一  d挥【新浪微博】</a></li> 
+        <li><input type="checkbox" checked value="2"/>一挥【新浪微博】</li>
+        <li><a href="#">一挥【新浪微博】</a></li>
+        <li><a href="#">f 一挥【新浪微博】</a></li> 
+        <li><a href="#">一d挥【新浪微博】</a></li> 
+        <li><a href="#">一  d挥【新浪微博】</a></li> 
+    </ul>
+</div>
+<!--帐列表区结束-->
+<div class="cl"> &nbsp; </div>
+<!--发布区-->
+<div class="d_write">
+	<div class="d_wordNumBg" id="write_info">你还可以输入<span>140</span>字</div> 
+	<div class="d_inputmsg"><textarea name="msg" id="msg"></textarea></div>
+    <div class="d_toolers">
+        <span class="pic"><a href="#">图片</a> 
+
+        </span> 
+        <span class="tit" id="write_video">
+        	<a href="javascript:void(0);" >多媒体</a> 
+        </span>
+        <span class="tit" id="write_topic"> 
+        	<a href="javascript:void(0);" >话题</a> 
+        </span> 
+    </div> 
+    <div class="d_btn"><!-- 不可点状态<div class="postBtnBg bgColorA_No"> --> 
+        <a href="javascript:void(0);" id="write_submit"> 发 布 </a> 
+    </div> 
+    
+    <!--图片上传用-->
+    <form target="Upfiler_file_iframe" action="http://picupload.t.sina.com.cn/interface/pic_upload.php?marks=1&amp;markstr=t.sina.com.cn/5d13&amp;s=rdxt&amp;app=miniblog&amp;cb=http://t.sina.com.cn/upimgback.html" id="write_image_form" enctype="multipart/form-data" method="POST" style="display:none;"> 
+    	<input type="file" name="pic1" id="write_file" /> 
+    </form>
+    <iframe name="Upfiler_file_iframe" style="display:none;width:0px;height:0px;" src="about:blank"></iframe>    
+    
+    <div style="display:none;" class="layerPicBg" id="write_imgpreview">
+        
+        <table class="fb_img"> 
+            <tr> 
+                <td> 
+                </td> 
+                <td class="j_bg"> 
+                </td> 
+                <td> 
+                </td> 
+            </tr> 
+            <tr> 
+                <td class="t_l"> 
+                </td> 
+                <td class="t_c"> 
+                </td> 
+                <td class="t_r"> 
+                </td> 
+            </tr> 
+            <tr> 
+                <td class="c_l"> 
+                </td> 
+                <td id="write_preimage" class="c_c"> 
+                    <img src="http://static14.photo.sina.com.cn/small/4ba9e0b3t790489c3987d&amp;690"/> 
+                </td> 
+                <td class="c_r"> 
+                </td> 
+            </tr> 
+            <tr> 
+                <td class="b_l"> 
+                </td> 
+                <td class="b_c"> 
+                </td> 
+                <td class="b_r"> 
+                </td> 
+            </tr> 
+        </table> 
+    </div> 
+     <!--/图片上传用-->
+</div> 
+<!--/发布区 --> 
+<div class="cl"> &nbsp; </div>
+<!--帐号标签切换区-->
+<div class="d_tab">
+    <ul>
+        <li class="sel">一挥【新】</li>
+        <li>f 一挥【新】</li> 
+        <li>一d挥【新】</li> 
+        <li>一  d挥【新】</li> 
+    </ul>
+</div>
+<!--/帐号标签切换区-->
+<div class="cl"> &nbsp; </div>
+<!--主工作区-->
+<div id="main">   
+   	<div class="d_message">
+        <div class="content">
+            <span class="author">沪江网</span>:#海报学英语#This is not a love story. It's a story about love. 和莎莫的500天（500 Days of Summer），不是爱情故事，而是跟爱情有关的故事。片名也译做恋夏500日。夏天再火热，也只能等到秋天才有收获。
+            <br/>【<a href="#">查原图片</a>】
+        </div>
+        <div class="d_comments">
+            <div class="comm_content">
+                <span class="author">沪江网</span>:#海报学英语#This is not a love story. It's a story about love. 和莎莫的500天（500 Days of Summer），不是爱情故事，而是跟爱情有关的故事。片名也译做恋夏500日。夏天再火热，也只能等到秋天才有收获。
+            <br>【<a href="#">查原图片</a>】&nbsp;&nbsp;&nbsp; 22分钟前 发自网页
+            </div>
+            <div class="comm_content">
+                <span class="author">沪江网</span>:#海报学英语#This is not a love story. It's a story about love. 和莎莫的500天（500 Days of Summer），不是爱情故事，而是跟爱情有关的故事。片名也译做恋夏500日。夏天再火热，也只能等到秋天才有收获。
+            <br>【<a href="#">查原图片</a>】&nbsp;&nbsp;&nbsp; 22分钟前 发自网页
+            </div>
+        </div>
+        <div class="other">
+            <div class="d_retime">
+            .22分钟前 发自网页
+            </div>
+            <div class="d_btn">
+             <a href="#">对话</a> | <a href="#">转播</a> | <a href="#">★</a> | <a href="#d_top">Top</a>    
+            </div>
+        </div>
+        <div class="cl"> &nbsp; </div>
+    </div>
+    
+    
+    
+   	<div class="d_message">
+        <div class="content">
+            <span class="author">沪江网</span>:#海报学英语#This is not a love story. It's a story about love. 和莎莫的500天（500 Days of Summer），不是爱情故事，而是跟爱情有关的故事。片名也译做恋夏500日。夏天再火热，也只能等到秋天才有收获。
+            <br/>【<a href="#">查原图片</a>】
+        </div>
+        <div class="d_comments">
+            <div class="comm_content">
+                <span class="author">沪江网</span>:#海报学英语#This is not a love story. It's a story about love. 和莎莫的500天（500 Days of Summer），不是爱情故事，而是跟爱情有关的故事。片名也译做恋夏500日。夏天再火热，也只能等到秋天才有收获。
+            <br>【<a href="#">查原图片</a>】&nbsp;&nbsp;&nbsp; 22分钟前 发自网页
+            </div>
+            <div class="comm_content">
+                <span class="author">沪江网</span>:#海报学英语#This is not a love story. It's a story about love. 和莎莫的500天（500 Days of Summer），不是爱情故事，而是跟爱情有关的故事。片名也译做恋夏500日。夏天再火热，也只能等到秋天才有收获。
+            <br>【<a href="#">查原图片</a>】&nbsp;&nbsp;&nbsp; 22分钟前 发自网页
+            </div>
+        </div>
+        <div class="other">
+            <div class="d_retime">
+            .22分钟前 发自网页
+            </div>
+            <div class="d_btn">
+             <a href="#">对话</a> | <a href="#">转播</a> | <a href="#">★</a> | <a href="#d_top">Top</a>   
+            </div>
+        </div>
+        <div class="cl"> &nbsp; </div>
+    </div>
+    
+    
+</div>
+<!--/主工作区-->
+
+</body>
+</html>

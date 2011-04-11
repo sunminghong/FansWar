@@ -1,0 +1,10 @@
+<{include file=header.html}>
+
+
+
+<p>
+
+</p>
+<p>内容</p>
+<p><{$contents}></p>
+<{include file=footer.html}>

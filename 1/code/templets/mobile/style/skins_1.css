@@ -1,0 +1,8 @@
+html,body,td,div{background:#202020;color:#d0cfb2;}
+h3{background:#404040;color:#ffee89;}
+h3 em{color:#EEE;}
+a.logo,a.logo:visited{color:#f00;}
+a.l:link{color:#eeeeee;}
+a:link,a.m:visited,.nav a:visited { color: #0fb1ff;}
+a:visited { color: #0b87c3;}
+a:hover,a.l:hover{color:#ff0080;}

@@ -1,0 +1,24 @@
+*{
+	padding:3px;
+	margin:0px;
+}
+html,body,td,div{font-family:arial,verdana;font-size:14px;line-height:150%;}
+h3{font-weight:bold;padding:2px;margin:2px 0;font-size:medium;}
+h3 em{font-weight:normal;font-size:small;}
+form{margin:0;padding:0;}
+p{margin:5px 0px;}
+img{border:none;}
+a:hover,a.l:hover{text-decoration:underline;}
+ul{	list-style:none;}
+ul.pagelist li {float:left;padding:3px;}
+
+
+
+#skinblock {text-align:right;}
+#skinblock b {font-weight:normal;margin:1px;padding:3px;text-align:center;cursor:pointer;}
+#skins_0 {background:#202020;color:#bbb;}
+#skins_1 {background:#202020;color:#bdb76b;}
+#skins_2 {background:#9fc383;color:#000;}
+#skins_3 {background:#e3d5c1;color:#000;}
+#skins_4 {background:#f8f8f8;color:#000080;}
+#skins_5 {background:#202020;color:#13a7ff;}

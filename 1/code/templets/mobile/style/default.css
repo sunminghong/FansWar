@@ -1,0 +1,112 @@
+html,body,form{margin:0 0;padding:0 0;}
+h1,h2,h3,h4,h5,h6,div,p{margin:0 0;padding:0;}
+body{font-family:Helvetica,Tahoma,sans-serif;font-size:100%;line-height:125%;}
+input, textarea, select, option{font-size:100%;}
+h1,h2,h3,h4,h5,h6,.title{font-size:100%;font-weight:bold;}
+.content,#ft-links,#header,#ft-menu,#ft,.title,.list div,.list p,.pager,.link{padding:4px 6px 2px 6px;}
+.list div, .list p{border-bottom:1px solid #ddd;}
+table{border-collapse:collapse;}
+td{vertical-align:top;padding:0;}
+a{color:#0088bb;background:none;text-decoration:none;}
+img{border:0;}
+#ft-links{margin-top:10px;border-top:1px solid #ddd;border-bottom:1px solid #ddd;color:#666;}
+#ft-menu{color:#aaa;}
+#ft{background:#2b9fd9;color:#ffffff;font-size:small;text-align:center;}
+#login-notice p{padding:4px 6px 2px 6px;border-top:1px solid #ddd;}
+
+.pipe{color:#aaa;}
+
+#landing{border-top:2px solid #09c;border-bottom:2px solid #09c;background-color:#f5f5f5;padding:4px 6px 2px 6px;}
+
+form p, form div, .form{padding:2px 0 1px;}
+input.text, textarea.text{width:96%;border:1px solid #2ea8e5;}
+input.text:focus, textarea.text:focus{border:1px solid #2483b3;}
+
+/*header*/
+#header{height:22px;background:#2b9fd9;}
+#header a{background:none;}
+#toplink{padding:4px 6px 2px 6px;border-bottom:1px solid #ddd;}
+/*header end*/
+/*navigator*/
+.nav,.subnav p,.subnav form{padding:4px 6px 2px 6px;}
+.nav{background:#80c5e8;}
+.nav a{color:#fff;}
+.nav a.active{font-weight:bold;}
+.nav .pipe{color:#fff;}
+.subnav{border-bottom:1px solid #aaa;}
+.subnav a.active{font-weight:bold;}
+/*style in commen*/
+.sect{padding:4px 6px 2px 6px;}
+.abt{border-top:1px solid #ddd;}
+.abb{border-bottom:1px solid #ddd;}
+.acy{border-color:#e2c822;background-color:#fffbe2;}
+
+.note{color:#999;}
+.red{color:red;}
+
+.time{color:#999;font-size:small;}
+.small{font-size:small;}
+/*style in commen end*/
+
+/*user*/
+#user-avatar td{padding:0 0 0 5px;}
+#user-avatar img{padding:2px;border:1px solid #ddd;}
+/*user*/
+
+.errorbox{border:2px solid red;padding:5px;}
+table.result_block tr td{background-color:#EEEEEE;border:1px solid #CCCCCC;padding:5px;}
+table.result_block{margin:0 0 8px 0;}
+table.user_badges {width:100%}
+table.user_badges tr td{padding:5px;border-bottom:1px solid #ddd}
+.alerts_notice{color:red;}
+span.tip_notice{color:red;margin-left:10px;}
+div.alerts_new_friend{padding:0 0 5px;color:black;}
+span.alerts_new_friend{padding:0 0 5px;color:red;}
+div.alerts_new_friend a{padding:0 0 5px;}
+.button{border:1px solid #09c;background:#09C;color:#ffffff;font-weight:bold;}
+a.button{margin:2px 0;padding:2px 5px 1px 5px;}
+table.users, ul.tips{margin:5px 0;}
+table.users td{padding:5px;}
+ul.tips{padding-left:30px;}
+/* Page :sync */
+#sync-sns{margin-top:5px;}
+#sync-sns td.logo, #sync-target td.logo{width:20px;}
+#sync-sns td.name{width:100px;}
+
+#sync-target{margin-bottom:15px;}
+form.sync-account p{margin:5px 0;}
+form.sync-account p.btn{margin-top:15px;}
+hr.badge{color:#eee;background-color:#eee;}
+p.badge-desc{margin:10px 0;}
+span.badge-used{color:red;padding:5px 10px;border:solid 1px red;}
+#coupon-mayor{position:relative;padding:10px 0 10px 10px;}
+#coupon-mayor img.crown{position:absolute;top:0;left:0;}
+.reply_textarea{width:99%;}
+.reply_btn{border:0;background:#2781C3;color:#ffffff;padding:3px 10px;text-align:center;border:1px solid #ffffff;}
+
+div.points td.name{padding-left:5px;padding-right:5px;}
+div.points h2{color:#000;font-size:16px;margin:20px 0 5px 0;}
+span.points, span.summary{color:#FF4400;}
+a.points:hover{color:#ffffff;}
+div.ranking, div.range{margin:7px 0;}
+table.rank{margin-top:7px;}
+a.coupon-icon{float:left;padding-top:2px;margin-right:4px;}
+.page{margin-right:15px;}
+span.page{color:#999;}
+
+div.import-box{padding:4px 6px 2px 6px;}
+div.import-box th{text-align:right;font-weight:normal}
+div.import-box input.submit{width:120px;}
+
+.calendar{size:100%;border-collapse:collapse;width:100%;} 
+.calendar img{padding-top:5px;}
+.calendar td.head{width:56px;}
+.calendar td.content{padding-left:5px;}
+.calendar_item{padding:0px;width:56px;height:56px;border:#CCCCCC 1px solid;text-align:center;}
+.calendar_item_top{color:#2ea8e5;height:30%;font-weight:bold;line-height:16px;font-size:14px}
+.calendar_item_bottom{height:70%;background-color:#2ea8e5;color:white;font-size:38px;line-height:100%}
+
+.feed-actions{font-size:small;}
+
+img.c-icon{height: 14px; width: 14px; vertical-align:center;}
+.how-to-upload-photos { margin-bottom: -10px;  padding: 4px 6px 2px; }
